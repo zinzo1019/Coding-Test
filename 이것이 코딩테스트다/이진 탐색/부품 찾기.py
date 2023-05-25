@@ -41,11 +41,7 @@ def search(array, target, start, end):
 # 손님이 요구하는 부품을 하나씩 탐색
 for target in customer:
     check = search(store, target, 0, n-1)
-    if search(store, target, 0, n-1):
+    if check:
         print("yes", end=' ')
     else:
         print("no", end=' ')
-
-
-
-
