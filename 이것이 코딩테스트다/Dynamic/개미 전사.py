@@ -18,7 +18,6 @@ d[0] = storage[0]
 d[1] = max(storage[0], storage[1])
 
 # 식량의 최댓값 구하기
-# check 변수로 연속해서 식량 창고를 터는 게 아닌지 확인한다.
 for i in range(2, n):
     # i번째 식량 창고를 털 때
     candi1 = d[i-2] + storage[i]
