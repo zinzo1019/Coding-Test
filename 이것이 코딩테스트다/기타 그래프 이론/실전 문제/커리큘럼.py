@@ -32,10 +32,8 @@ for subject in range(1, n+1):
 
 # 위상 정렬
 def topological():
-
     # 결과
     result = copy.deepcopy(time)
-
     queue = []
     # 진입차수가 0이면 큐에 삽입
     for i in range(1, n+1):
